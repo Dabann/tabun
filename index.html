@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Icons Grid with Links</title>
+    <style>
+
+        body{background-color: rgb(34, 49, 21);
+        background-size:50px; 
+        background-position: center; }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25vh;
+        }
+
+        .icon {
+            width: 100px; 
+            height: 100px;
+            margin: 10px; 
+        }
+
+        .icon a {
+            display: block; 
+            width: 100%;
+            height: 100%;
+        }
+
+        .topline{
+            margin-top: 80px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+
+        .headline{
+            margin-top: 15px;
+            text-align: center;
+            color: whhite(35, 33, 33);
+            font: 30px;
+        }
+
+        .headline2{
+            margin-top: 150px;
+            text-align: center;
+            color: white;
+            color: white(35, 33, 33);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="topline"> Welcome to Zabun Realestate</h1>
+    <h1 class="headline">A Guide to the right choice</h1>
+    <h1 class="headline2">Follow us on:</h1>
+    <div class="container">
+        <div>
+            <a href="https://www.facebook.com/profile.php?id=61556385668959" target="_blank">
+                <img class="icon" src="facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img class="icon" src="instagram.png" alt="Instagram">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img class="icon" src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.tiktok.com/@zabun_real_estate" target="_blank">
+                <img class="icon" src="tiktok.png" alt="TikTok">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
